@@ -8,3 +8,5 @@ xlabel('Sumbu X');
 ylabel('Sumbu Y');
 zlabel('Sumbu Z');
 axis equal;
+
+% vim:ft=matlab

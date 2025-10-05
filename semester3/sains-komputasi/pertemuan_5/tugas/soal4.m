@@ -3,7 +3,7 @@ n = -5:0.5:5;
 Z = sqrt(X.^2 + Y.^2);
 figure;
 
-# Plot 1
+% Plot 1
 subplot(1, 2, 1);
 surf(X, Y, Z);
 title('Sudut pandang default');
@@ -12,7 +12,7 @@ ylabel('Sumbu Y');
 zlabel('Sumbu Z');
 axis equal;
 
-# Plot 2
+% Plot 2
 subplot(1, 2, 2);
 surf(X, Y, Z);
 title('Sudut pandang dari atas');
@@ -21,3 +21,5 @@ ylabel('Sumbu Y');
 zlabel('Sumbu Z');
 axis equal;
 view(0, 90);
+
+% vim:ft=matlab

@@ -1,13 +1,13 @@
 t = linspace(0, 10*pi, 1000)
 
-# Pendefinisian z
+% Pendefinisian z
 z = t;
 
-# menentukan nilai lintasan 1
+% menentukan nilai lintasan 1
 x1 = cos(t);
 y1 = sin(t);
 
-# menentukan nilai lintasan 2
+% menentukan nilai lintasan 2
 x2 = cos(t);
 y2 = -sin(t);
 
@@ -25,3 +25,5 @@ ylabel('Sumbu Y');
 zlabel('Sumbu Z');
 grid on;
 axis equal;
+
+% vim:ft=matlab

@@ -64,11 +64,11 @@ proses enkripsi dan dekripsi dari kata "Ini adalah RSA Algorithm dari awal (scra
 menampilkannya di layar:
 
 ```text
-Kunci Publik  (e, n): (17, 3233)
-Kunci Private (d, n): (2753, 3233)
+Kunci Publik  (e, n): (7, 3233)
+Kunci Private (d, n): (1783, 3233)
 Pesan asli: Ini adalah RSA Algorithm dari awal (scratcth)
-Hasil Enkripsi (Array angka): [1486, 2235, 3179, 1992, 1632, 1773, 1632, 745, 1632, 2170, 1992, 1859, 2680, 2790, 1992, 2790, 7
-45, 2923, 2185, 2412, 3179, 884, 2170, 2271, 1992, 1773, 1632, 2412, 3179, 1992, 1632, 1107, 1632, 745, 1992, 642, 1230, 281, 2
-412, 1632, 884, 281, 884, 2170, 3199]
+Hasil Enkripsi (Array angka): [286, 1544, 3020, 2774, 1818, 2872, 1818, 1877, 1818, 3052, 2774, 1077, 1825, 1317, 2774, 1317, 1
+877, 728, 3183, 1797, 3020, 1762, 3052, 597, 2774, 2872, 1818, 1797, 3020, 2774, 1818, 863, 1818, 1877, 2774, 1363, 567, 24, 17
+97, 1818, 1762, 24, 1762, 3052, 2711]
 Hasil dekripsi: Ini adalah RSA Algorithm dari awal (scratcth)
 ```

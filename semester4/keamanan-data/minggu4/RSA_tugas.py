@@ -59,8 +59,8 @@ def generate_rsa_keys(p, q):
     # phi adalah nilai Fungsi Totient Euler untuk mencari keunikan e dan d
     phi = (p - 1) * (q - 1)
 
-    # e (eksponen publik) dimulai dari konstanta bilangan prima 17
-    e = 17
+    # e (eksponen publik) dimulai dari konstanta bilangan prima 3
+    e = 3
     # Terus tambahkan jika e belum relatif prima / koprima terhadap ukuran phi (FPB bukan 1)
     while calculate_gcd(e, phi) != 1:
         e += 2
